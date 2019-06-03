@@ -153,6 +153,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-row: 1 / span 3;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 /* NavBar */
 #main-nav {
   background: #fff;
@@ -250,6 +254,18 @@ h1, h2, h3, h4, h5, h6 {
   grid-gap: 1rem;
   align-items: center;
   grid-column: 1 / span 2;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 #home-articles .articles-container > *:last-child {
